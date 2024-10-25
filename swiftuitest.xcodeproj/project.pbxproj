@@ -14,6 +14,7 @@
 		272F859D29D58A0500F209BD /* swiftuitestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F859C29D58A0500F209BD /* swiftuitestTests.swift */; };
 		272F85A729D58A0500F209BD /* swiftuitestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F85A629D58A0500F209BD /* swiftuitestUITests.swift */; };
 		272F85A929D58A0500F209BD /* swiftuitestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F85A829D58A0500F209BD /* swiftuitestUITestsLaunchTests.swift */; };
+		27D4ACEB2CCAFC200095AA40 /* MyActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4ACEA2CCAFC200095AA40 /* MyActor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		272F85A229D58A0500F209BD /* swiftuitestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftuitestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		272F85A629D58A0500F209BD /* swiftuitestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuitestUITests.swift; sourceTree = "<group>"; };
 		272F85A829D58A0500F209BD /* swiftuitestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuitestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27D4ACEA2CCAFC200095AA40 /* MyActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				272F858B29D58A0100F209BD /* swiftuitestApp.swift */,
 				272F858D29D58A0100F209BD /* ContentView.swift */,
+				27D4ACEA2CCAFC200095AA40 /* MyActor.swift */,
 				272F858F29D58A0500F209BD /* Assets.xcassets */,
 				272F859129D58A0500F209BD /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				272F858E29D58A0100F209BD /* ContentView.swift in Sources */,
+				27D4ACEB2CCAFC200095AA40 /* MyActor.swift in Sources */,
 				272F858C29D58A0100F209BD /* swiftuitestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,7 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuitest/Preview Content\"";
-				DEVELOPMENT_TEAM = LXLUFTR6K8;
+				DEVELOPMENT_TEAM = YJDQS4NX9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -446,7 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuitest/Preview Content\"";
-				DEVELOPMENT_TEAM = LXLUFTR6K8;
+				DEVELOPMENT_TEAM = YJDQS4NX9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
