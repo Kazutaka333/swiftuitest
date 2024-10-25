@@ -45,6 +45,7 @@ actor MyActor {
     func handle(_ i: Int) { count += i }
 
     nonisolated func end() {
+        // This make sure for-await ends
         Task { await subject.send(completion: .finished) }
     }
 }
@@ -53,6 +54,7 @@ public extension AnyPublisher where Failure == Never {
     func asyncStream() -> AsyncStream<Output> {
         AsyncStream { continuation in
             let cancellable = sink { _ in
+                // This line was missing
                 continuation.finish()
             } receiveValue: { value in
                 continuation.yield(value)
